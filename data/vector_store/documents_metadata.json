@@ -1,0 +1,18 @@
+{
+  "2365aa92-88e2-40fb-a6c1-64637eee584e": {
+    "document_id": "2365aa92-88e2-40fb-a6c1-64637eee584e",
+    "filename": "220f139cbb0e4d6987ead9bd7524363d.pdf",
+    "chunks_count": 267,
+    "upload_time": "2025-07-28T14:57:56.422245",
+    "file_size": 1384506,
+    "status": "processed"
+  },
+  "7d145e50-a5ee-4235-a680-e641c62895e3": {
+    "document_id": "7d145e50-a5ee-4235-a680-e641c62895e3",
+    "filename": "m3-f2.pdf",
+    "chunks_count": 39,
+    "upload_time": "2025-07-28T14:58:50.688920",
+    "file_size": 200108,
+    "status": "processed"
+  }
+}
