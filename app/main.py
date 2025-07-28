@@ -1,5 +1,4 @@
 import os
-import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -51,11 +50,3 @@ async def startup_event():
     os.makedirs(settings.VECTOR_STORE_DIR, exist_ok=True)
     
     logger.info("API startup completed - services will be initialized when first needed")
-
-if __name__ == "__main__":
-    uvicorn.run(
-        "app.main:app",
-        host="0.0.0.0",
-        port=int(os.getenv("PORT", 8000)),
-        reload=False
-    )
