@@ -14,4 +14,4 @@ loguru==0.7.2
 huggingface_hub==0.14.1
 transformers==4.21.0
 torch==1.13.1
-tokenizers==0.13.3
+tokenizers==0.12.1
