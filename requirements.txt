@@ -1,5 +1,5 @@
 fastapi
-hypercorn
+uvicorn[standard]
 python-multipart
 pydantic
 pydantic-settings
